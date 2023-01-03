@@ -1,0 +1,48 @@
+.title {
+    font-size: 40px;
+    color: var(--color-white);
+    font-weight: 300;
+  }
+
+  .year {
+    font-size: 70px;
+    color: var(--color-primary);
+  }
+  p {
+    color: #cbd1d1;
+    margin-top: 20px;
+  }
+
+  .banner-area {
+    background-image: url(../../images/all-image/banner-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+    &::after {
+      content: " ";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      background-color: rgba(52, 40, 40, 0.718);
+      z-index: -1;
+    }
+  }
+
+  .banner-inner {
+    z-index: 100;
+  }
+
+  .banner-btn {
+    margin-top: 50px;
+  }
+
+  
+
+ 
+
+ 

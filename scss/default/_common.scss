@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url(' http://fonts.cdnfonts.com/css/autograf-personal-use-only ');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.signature {
+  font-family: 'Autograf PERSONAL USE ONLY', sans-serif;
+  color: var(--color-white);
+  font-size: 20px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.bg-color-2 {
+  background-color: #f1f1f1;
+}
+
+.ptb-30 {
+  padding: 30px 0;
+}
+
+i {
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+}
+
+.border-none {
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin-bottom: 0;
+}
+

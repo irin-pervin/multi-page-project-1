@@ -1,0 +1,29 @@
+ 
+  .service-inner {
+    text-align: center;
+    border-right: 2px solid #dddddd;
+   
+    .title {
+      font-size: 24px;
+      color: var(--color-heading);
+      font-weight: var(--p-bold);
+      transition: var(--transition);
+      i {
+        margin-right: 10px;
+      }
+      &:hover {
+          color: var(--color-primary);
+      }
+    }
+
+    p {
+      font-size: 14px;
+      color: var(--bg-color-1);
+      margin-top: 30px;
+    }
+  }
+
+  .border-none {
+    border: none;
+    
+  }

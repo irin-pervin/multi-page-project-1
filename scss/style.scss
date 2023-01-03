@@ -1,0 +1,28 @@
+
+/**************************************
+    Default Styles
+***************************************/
+@import 'default/variables';
+@import 'default/typography';
+@import 'default/spacing';
+@import 'default/common';
+
+// Item style 
+@import 'elements/header-top';
+@import 'elements/header';
+@import 'elements/button';
+@import 'elements/banner';
+@import 'elements/service';
+@import 'elements/product-card';
+@import 'elements/isotop';
+@import 'elements/new-collection';
+@import 'elements/blog';
+@import 'elements/footer';
+
+
+//pages style
+@import 'pages/contact';
+
+
+
+
